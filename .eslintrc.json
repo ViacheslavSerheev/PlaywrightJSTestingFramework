@@ -1,0 +1,53 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended", "eslint:recommended", "plugin:playwright/recommended"],
+  "env": {
+    "node": true,
+    "es2021": true,
+    "jest": true,
+    "es2022": true
+  },
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "page": true
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "strict": 0,
+    "no-underscore-dangle": 0,
+    "consistent-return": ["warn"],
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsForRegex": [".*"] }],
+    "prettier/prettier": ["error", { "singleQuote": false, "tabWidth": 4, "semi": true, "jsxSingleQuote": false }],
+    "no-mixed-spaces-and-tabs": 0,
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": true
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "init-declarations": ["error"],
+    "arrow-body-style": [2, "as-needed"],
+    "no-console": [
+      "error",
+      {
+        "allow": ["error"]
+      }
+    ],
+    "no-return-await": 0,
+    "guard-for-in": 0,
+    "no-restricted-syntax": 0,
+    "no-await-in-loop": 0,
+    "no-unexpected-multiline": "error",
+    "import/prefer-default-export": 0
+  }
+}

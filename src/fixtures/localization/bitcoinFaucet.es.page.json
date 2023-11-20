@@ -1,0 +1,81 @@
+{
+  "title": "nda",
+  "url": "/es/bitcoin-faucet",
+  "mobilePagespeedLighthouse": 85,
+  "desktopPagespeedLighthouse": 95,
+  "pagespeed": {
+    "lighthouse": {
+      "mobile": 85,
+      "desktop": 95
+    },
+    "pageSpeedInsights": {
+      "mobile": 75,
+      "desktop": 95
+    }
+  },
+  "links": [
+    {
+      "rel": "canonical",
+      "href": "{BASE_URL}/es/bitcoin-faucet"
+    },
+    {
+      "rel": "alternate",
+      "hreflang": "x-default",
+      "href": "{BASE_URL}/bitcoin-faucet"
+    },
+    {
+      "rel": "icon",
+      "href": "/next_static/favicon/favicon.ico"
+    }
+  ],
+  "meta": [
+    {
+      "name": "robots",
+      "content": "index,follow"
+    },
+    {
+      "name": "description",
+      "content": "nda"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary"
+    },
+    {
+      "name": "twitter:site",
+      "content": "nda"
+    },
+    {
+      "property": "og:title",
+      "content": "nda"
+    },
+    {
+      "property": "og:description",
+      "content": "nda"
+    },
+    {
+      "property": "og:url",
+      "content": "{BASE_URL}/es/bitcoin-faucet"
+    },
+    {
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "property": "og:image",
+      "content": "{BASE_URL}/next_static/images/previewImage.png"
+    },
+    {
+      "name": "twitter:image",
+      "content": "{BASE_URL}/next_static/images/previewImage.png"
+    },
+    {
+      "property": "twitter:title",
+      "content": "nda"
+    },
+    {
+      "property": "twitter:description",
+      "content": "nda"
+    }
+  ]
+}

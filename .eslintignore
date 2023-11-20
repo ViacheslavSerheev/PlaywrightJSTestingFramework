@@ -1,0 +1,4 @@
+# Don't check auto-generated stuff into git
+node_modules
+# Cruft
+npm-debug.log
